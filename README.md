@@ -21,9 +21,9 @@ Desktop based IDE for Java, JVM platform, C/C++, UML Modelling, Reporting, DB de
 Eclipse Orion
 -------------
 
-Browser based IDE for JavaScript and HTML.
+Eclipse Orion is browser based IDE for JavaScript and HTML. 
 
-Client server [architecture](http://wiki.eclipse.org/images/0/04/Orion_Architecture_1.jpg).
+It has a client server [architecture](http://wiki.eclipse.org/images/0/04/Orion_Architecture_1.jpg).
 
 Links: 
 - [Orion homepage](http://www.eclipse.com/orion) 
@@ -40,14 +40,19 @@ Play ground
 Client side
 -----------
 
+Client side is the javascript/HTML layer that implements IDE presentation logic. It can run standalone or embedded in web page or desktop application.
 
+Like Eclipse, it is extensible via plugins attached to extension points. There are [extension points](http://wiki.eclipse.org/Orion/Documentation/Developer_Guide) for editor, content assist, team etc.
+
+Each plugin is implemented as an HTML page that has javascript that is loaded and ran when the page is loaded by Orion. 
 
 Server side
 -----------
 
-Default impplementation is built on jetty + eclipse platform.
+Default impplementation is built on jetty + eclipse platform. As such it can use different eclipse plugins.
 
-It can be implemented on node or any other platform, provided it implements Orion REST API.
+It can be implemented on any other platform, provided it implements Orion REST API, for example Node.js.
 
 
-
+Self hosting
+------------
