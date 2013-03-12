@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Run groovy Plugin</title>
+  <script src="require.js"></script>
+  <script>
+  /*global require*/
+  require.config({
+			baseUrl: '../..',
+			paths: {
+			  text: 'requirejs/text',
+			  i18n: 'requirejs/i18n',
+			  domReady: 'requirejs/domReady'
+			}
+		});
+  require(["groovyPlugin.js"]);
+ </script>
+</head>
+<body>Groovy plugin</body>
+</html>

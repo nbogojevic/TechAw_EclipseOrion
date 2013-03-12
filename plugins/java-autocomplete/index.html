@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Python REPL</title>
+<script src="/requirejs/require.js"></script>
+  <script>
+  /*global require*/
+  require.config({
+			baseUrl: '../..',
+			paths: {
+			  text: 'requirejs/text',
+			  i18n: 'requirejs/i18n',
+			  domReady: 'requirejs/domReady'
+			}
+		});
+  require(["autocomplete.js"]);
+ </script>
+ </head>
+</html>
