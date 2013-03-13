@@ -1,7 +1,7 @@
 Eclipse Orion Tech Awareness
 ============================
 
-This is the presentation of Eclipse Orion. 
+This is the presentation of the Eclipse Orion. 
 
 Web based IDE
 -------------
@@ -26,6 +26,8 @@ Eclipse Orion
 In short, today, Eclipse Orion is browser based IDE for JavaScript and HTML. As a larger scope, it is a platform for creating developpment tools on the web and for the web. 
 
 It has a client-server [architecture](http://wiki.eclipse.org/images/0/04/Orion_Architecture_1.jpg).
+
+Eclipse Orion is an open source, top level Eclipse Foundation project. 
 
 Links: 
 - [Orion homepage](http://www.eclipse.com/orion) 
