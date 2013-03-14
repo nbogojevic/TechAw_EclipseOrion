@@ -30,7 +30,7 @@ It has a client-server [architecture](http://wiki.eclipse.org/images/0/04/Orion_
 Eclipse Orion is an open source, top level Eclipse Foundation project. 
 
 Links: 
-- [Orion homepage](http://www.eclipse.com/orion) 
+- [Orion homepage](http://www.eclipse.org/orion) 
 - [wiki](http://wiki.eclipse.org/Orion)
 - [OrionHub](http://orionhub.org)
 
